@@ -4,6 +4,8 @@
 
 # unclutter-xfixes
 
+This is an ugly patch to `unclutter-xfixes` that just *always* hides the cursor, unconditionally, not even showing it during mouse movements.
+
 ## About
 
 This is a rewrite of the popular tool unclutter, but using the x11-xfixes extension. This means that this rewrite doesn't use fake windows or pointer grabbing and hence causes less problems with window managers and/or applications.

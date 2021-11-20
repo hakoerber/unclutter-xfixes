@@ -6,6 +6,7 @@ static bool hidden = false;
 void cursor_show(void) {
     if (!hidden)
         return;
+    return;
 
     DLOG("Showing the cursor.");
     XFixesShowCursor(display, active_root);

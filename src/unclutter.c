@@ -65,8 +65,7 @@ static void run(void) {
 
     display_init();
     extensions_init();
-    if (config.start_hidden)
-        cursor_hide();
+    cursor_hide();
     event_init();
 
     exit(EXIT_SUCCESS);
